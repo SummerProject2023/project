@@ -33,3 +33,9 @@ PUBLIC:
 
 API:
 used to send https calls to api in server
+
+Express => webapp/ HTTP framework for running node servers
+cors => to call this server anywhere else in the internet
+axios => to make external api calls
+
+nodemon => to see real time code changes 

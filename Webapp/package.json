@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "name": "baghchal",
+  "version": "1.0.0",
+  "description": "A multi-player bagh chal game",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SummerProject2023/project.git"
+  },
+  "author": "Biplov Ale, Manogya Aryal, Bikash Acharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SummerProject2023/project/issues"
+  },
+  "homepage": "https://github.com/SummerProject2023/project#readme"
+}
