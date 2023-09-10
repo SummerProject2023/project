@@ -1,10 +1,9 @@
-# project
+to access static pages: 
 
+localhost:----/ directs to login page
+localhost:----/signup directs to sign up page
 
-private:
-personal
-about, profile, edit profile, contact(email)
+go according to folder structure in web app 
 
-public:
-
-team's about, contact
+localhost:----/view/public/home.html 
+localhost:----/view/public/gamePage.html
