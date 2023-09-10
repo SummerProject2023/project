@@ -1,0 +1,27 @@
+### GET REQUEST
+GET http://localhost:3000/auth/signup
+
+
+### POST REQUEST
+POST http://localhost:3000/api/auth/signup
+content-type: application/json
+
+{
+    "firstName" : "Bikash",
+    "lastName" : "Acharya",
+    "userName":"acbikash13@gmail.com",
+    "password":"Iamcosmos#123"
+}
+
+  
+### PUT REQUEST
+PUT http://localhost:3000/api/games/1234
+content-type: application/json
+
+
+{
+    "bingoNumber":24
+}
+
+### DELETE REQUEST
+DELETE http://localhost:8000/assignmentSixds/apiRequests/644584527726e807c87376bd

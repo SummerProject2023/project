@@ -1,0 +1,64 @@
+<!-- THis page will host as the waiting room as the game is being hosted and other player is about to join the game.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: lightslategray;
+            padding: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+            font-family:fantasy;
+            }
+        p {
+            font-size: large;
+            padding: 10px;
+            border: solid black 3px;
+            border-radius: 25px;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            margin: 30px;
+            padding: 30px;
+            border-radius: 30px;
+        }
+        button:hover {
+            scale: 1.5;
+            transition: 1s;
+            background-color:rgb(249, 5, 5);
+        }
+    
+    </style>
+</head>
+<body class="container-fluid bg-dark p-5">
+    <div class="p-4">
+        <p class=" text-dark">Waiting room! Select your agent</p>
+    </div>
+    <div class = "character-selection bg-light">
+        <button id = "tiger bg-primary p-5 shadow-lg">
+            Tiger
+        </button>
+        <button id="goat bg-primary p-5 shadow-lg">
+            Goat
+        </button>
+    </div>
+    <div class="player-info">
+        <p>{tiger:username}</p>
+        <p>{goat:username}</p>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>
